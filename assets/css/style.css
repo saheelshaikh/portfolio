@@ -1878,5 +1878,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 */
 
   .timeline-text { max-width: 700px; }
+  br.tight-break {
+  display: block;
+  content: "";
+  margin-top: 2px; /* Controls the exact height of the break */
+}
 
 }
